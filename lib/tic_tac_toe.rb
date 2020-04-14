@@ -121,3 +121,10 @@ def winner(board)
     board[won?(board)[2]]
   end
 end
+
+def play(board)
+  until over?(board)
+    turn(board)
+  end
+  
+end
